@@ -12,6 +12,8 @@
 		BEF392D120520AD4007CCC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF392CF20520AD4007CCC7C /* Main.storyboard */; };
 		BEF392D320520AD4007CCC7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF392D220520AD4007CCC7C /* Assets.xcassets */; };
 		BEF392D620520AD4007CCC7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF392D420520AD4007CCC7C /* LaunchScreen.storyboard */; };
+		BEF392DE20521001007CCC7C /* GiftCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF392DD20521001007CCC7C /* GiftCollectionViewCell.swift */; };
+		BEF392E0205218A7007CCC7C /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF392DF205218A7007CCC7C /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BEF392D220520AD4007CCC7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEF392D520520AD4007CCC7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEF392D720520AD4007CCC7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF392DD20521001007CCC7C /* GiftCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCollectionViewCell.swift; sourceTree = "<group>"; };
+		BEF392DF205218A7007CCC7C /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BEF392D220520AD4007CCC7C /* Assets.xcassets */,
 				BEF392D420520AD4007CCC7C /* LaunchScreen.storyboard */,
 				BEF392D720520AD4007CCC7C /* Info.plist */,
+				BEF392DD20521001007CCC7C /* GiftCollectionViewCell.swift */,
+				BEF392DF205218A7007CCC7C /* Data.swift */,
 			);
 			path = "wedding-book";
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			files = (
 				BEF392CE20520AD4007CCC7C /* ViewController.swift in Sources */,
 				BEF392CC20520AD4007CCC7C /* AppDelegate.swift in Sources */,
+				BEF392DE20521001007CCC7C /* GiftCollectionViewCell.swift in Sources */,
+				BEF392E0205218A7007CCC7C /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
