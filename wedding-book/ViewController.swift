@@ -59,6 +59,11 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         cell.amountLabel.text = format.string(from: NSNumber(value: rowData["amount"] as! Int))
         cell.numberLabel.text = String(indexPath.row+1)
         
+        cell.layer.borderColor = UIColor.red.cgColor
+        cell.layer.borderWidth = 2
+        cell.layer.cornerRadius = 14
+        
+        
         return cell
     }
     

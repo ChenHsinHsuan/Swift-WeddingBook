@@ -20,7 +20,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Hec-GB-C0D">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.73333333333333328" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="etp-Hj-mcw">
                                     <size key="itemSize" width="340" height="70"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -35,7 +35,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="340" height="70"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nlk-YF-4vq" userLabel="giftContentView">
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nlk-YF-4vq" userLabel="ContainerView">
                                                     <rect key="frame" x="0.0" y="0.0" width="340" height="70"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ID5-de-cHp">
@@ -80,10 +80,14 @@
                                                         <constraint firstAttribute="trailing" secondItem="3kD-rf-NDj" secondAttribute="trailing" constant="8" id="squ-0b-08q"/>
                                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="C4O-0w-eXa" secondAttribute="trailing" constant="20" symbolic="YES" id="t9h-ck-Teg"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="14"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                             </subviews>
                                         </view>
-                                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="Nlk-YF-4vq" secondAttribute="bottom" id="TYP-Zv-uac"/>
                                             <constraint firstAttribute="trailing" secondItem="Nlk-YF-4vq" secondAttribute="trailing" id="dm9-NJ-7aY"/>
