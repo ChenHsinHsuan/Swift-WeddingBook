@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE90DCBD20595C11005CABA7 /* Libian.ttc in Resources */ = {isa = PBXBuildFile; fileRef = BE90DCBC20595BF2005CABA7 /* Libian.ttc */; };
+		BE90DCBF205965B1005CABA7 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE90DCBE205965B1005CABA7 /* EditViewController.swift */; };
 		BEF392CC20520AD4007CCC7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF392CB20520AD4007CCC7C /* AppDelegate.swift */; };
 		BEF392CE20520AD4007CCC7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF392CD20520AD4007CCC7C /* ViewController.swift */; };
 		BEF392D120520AD4007CCC7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF392CF20520AD4007CCC7C /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE90DCBC20595BF2005CABA7 /* Libian.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Libian.ttc; sourceTree = "<group>"; };
+		BE90DCBE205965B1005CABA7 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 		BEF392C820520AD4007CCC7C /* wedding-book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wedding-book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF392CB20520AD4007CCC7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEF392CD20520AD4007CCC7C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE90DCBB20595BDF005CABA7 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BE90DCBC20595BF2005CABA7 /* Libian.ttc */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		BEF392BF20520AD4007CCC7C = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		BEF392CA20520AD4007CCC7C /* wedding-book */ = {
 			isa = PBXGroup;
 			children = (
+				BE90DCBB20595BDF005CABA7 /* fonts */,
 				BEF392CB20520AD4007CCC7C /* AppDelegate.swift */,
 				BEF392CD20520AD4007CCC7C /* ViewController.swift */,
 				BEF392CF20520AD4007CCC7C /* Main.storyboard */,
@@ -66,6 +79,7 @@
 				BEF392D720520AD4007CCC7C /* Info.plist */,
 				BEF392DD20521001007CCC7C /* GiftCollectionViewCell.swift */,
 				BEF392DF205218A7007CCC7C /* Data.swift */,
+				BE90DCBE205965B1005CABA7 /* EditViewController.swift */,
 			);
 			path = "wedding-book";
 			sourceTree = "<group>";
@@ -131,6 +145,7 @@
 			files = (
 				BEF392D620520AD4007CCC7C /* LaunchScreen.storyboard in Resources */,
 				BEF392D320520AD4007CCC7C /* Assets.xcassets in Resources */,
+				BE90DCBD20595C11005CABA7 /* Libian.ttc in Resources */,
 				BEF392D120520AD4007CCC7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE90DCBF205965B1005CABA7 /* EditViewController.swift in Sources */,
 				BEF392CE20520AD4007CCC7C /* ViewController.swift in Sources */,
 				BEF392CC20520AD4007CCC7C /* AppDelegate.swift in Sources */,
 				BEF392DE20521001007CCC7C /* GiftCollectionViewCell.swift in Sources */,

@@ -10,9 +10,9 @@ import UIKit
 
 let data = [
     [
-        "name":"大明",
+        "name":"一二三四五六",
         "belong": 0,
-        "amount": 1200,
+        "amount": 12000,
         "cookie":0,
         "delete": false,
     ],

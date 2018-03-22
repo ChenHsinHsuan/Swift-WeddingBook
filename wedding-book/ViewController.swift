@@ -45,10 +45,15 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         
         if gender > 0 {
             // belong man
-            cell.genderView.backgroundColor = UIColor(red:0.96, green:0.56, blue:0.69, alpha:1.0)
+//            cell.genderView.backgroundColor = UIColor(red:0.96, green:0.56, blue:0.69, alpha:1.0)
+            cell.genderView.backgroundColor = UIColor(red:0.94, green:0.38, blue:0.57, alpha:1.0)
+            cell.layer.borderColor = UIColor(red:0.94, green:0.38, blue:0.57, alpha:1.0).cgColor
         } else {
             // belong woman
-            cell.genderView.backgroundColor = UIColor(red:0.56, green:0.79, blue:0.98, alpha:1.0)
+//            cell.genderView.backgroundColor = UIColor(red:0.56, green:0.79, blue:0.98, alpha:1.0)
+            cell.genderView.backgroundColor = UIColor(red:0.44, green:0.58, blue:1.00, alpha:1.0)
+            cell.layer.borderColor = UIColor(red:0.44, green:0.58, blue:1.00, alpha:1.0).cgColor
+            
         }
         
         cell.nameLabel.text = (rowData["name"] as! String)
@@ -59,9 +64,13 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         cell.amountLabel.text = format.string(from: NSNumber(value: rowData["amount"] as! Int))
         cell.numberLabel.text = String(indexPath.row+1)
         
-        cell.layer.borderColor = UIColor.red.cgColor
+        
+        
         cell.layer.borderWidth = 2
         cell.layer.cornerRadius = 14
+        cell.layer.shadowOffset = CGSize(width: 10, height: 10)
+        cell.layer.shadowRadius = 14
+        cell.layer.shadowOpacity = 0.5
         
         
         return cell
