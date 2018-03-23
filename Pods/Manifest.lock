@@ -1,0 +1,37 @@
+PODS:
+  - Hero (1.1.0)
+  - Spring (1.0.5)
+  - ViewAnimator (1.0.5)
+
+DEPENDENCIES:
+  - Hero (from `https://github.com/lkzhao/Hero.git`)
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - ViewAnimator (from `https://github.com/marcosgriselli/ViewAnimator.git`)
+
+EXTERNAL SOURCES:
+  Hero:
+    :git: https://github.com/lkzhao/Hero.git
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+  ViewAnimator:
+    :git: https://github.com/marcosgriselli/ViewAnimator.git
+
+CHECKOUT OPTIONS:
+  Hero:
+    :commit: 24f76bb8130ed5c0f16ebe8b66ce5cbfb28ccd5e
+    :git: https://github.com/lkzhao/Hero.git
+  Spring:
+    :commit: 19b04d730d3edabbb02a39e58121d1d3220690ee
+    :git: https://github.com/MengTo/Spring.git
+  ViewAnimator:
+    :commit: 011fd7089650f1b8a06340381a7afcc35197d702
+    :git: https://github.com/marcosgriselli/ViewAnimator.git
+
+SPEC CHECKSUMS:
+  Hero: 2c70f1795f23de98379bfb015b0015de6005a4c1
+  Spring: 48aad470f3ead043b2da98b64e0bf0630b7ebc42
+  ViewAnimator: d87d691fbcaf994db7ee8fc632afa3073bd3b851
+
+PODFILE CHECKSUM: a7bffe1afd46b288bbb0b6d064e9b2181981db38
+
+COCOAPODS: 1.4.0
