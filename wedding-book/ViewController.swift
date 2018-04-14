@@ -33,13 +33,21 @@ class ViewController: UIViewController {
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return data.count
+        return data.count + 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        
+        if indexPath.row == 0 {
+            let addCell = collectionView.dequeueReusableCell(withReuseIdentifier: "addCell", for: indexPath)
+            return addCell
+        }
+        
+    
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "giftCell", for: indexPath) as! GiftCollectionViewCell
         
-        let rowData = data[indexPath.row]
+        let rowData = data[indexPath.row-1]
         
         let gender = rowData["belong"] as! Int
         
